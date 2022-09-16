@@ -1,0 +1,20 @@
+{
+  "name": "short-video-mern",
+  "version": "1.0.0",
+  "description": "The short video app backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jafarscript",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "heroku": "^7.63.4",
+    "mongoose": "^6.6.1",
+    "nodemon": "^2.0.20"
+  }
+}
